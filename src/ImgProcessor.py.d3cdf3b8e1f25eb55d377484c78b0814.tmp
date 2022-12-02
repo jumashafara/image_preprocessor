@@ -29,6 +29,7 @@ class ImgProcessor:
 
     def images_object(self):
         images_list = list(pathlib.Path(self.images_dir).glob("*"))
+        
         images_object, class_labels = {}, {}
 
         print("Classifying and labelling classes...")
