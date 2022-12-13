@@ -24,7 +24,7 @@ img_proc = ImgProcessor(images_dir = "path/to/image/directory", class= ["list", 
 ```
 X, y = img_proc.get_Xy()
 ```
-3. Optionally, you can check if the images paths are matching the class labels by calling the images_object method on your processor object
+3. You can obtain the numeric values corresponding to your class labels by calling the images_object method on your processor object
 ```
 img_obj = img_proc.images_object()
 ```
